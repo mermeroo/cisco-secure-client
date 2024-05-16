@@ -1,0 +1,40 @@
+<AnyConnectProfile>
+    <ServerList>
+        <HostEntry>
+            <HostName>vpn.example.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+    <CertificateStore>Machine</CertificateStore>
+    <CertificateStoreOverride>false</CertificateStoreOverride>
+    <DefaultUser>user@example.com</DefaultUser>
+    <DefaultSecondUser></DefaultSecondUser>
+    <ClientCertificateThumbprint></ClientCertificateThumbprint>
+    <AutomaticCertSelection>true</AutomaticCertSelection>
+    <AutoConnect>true</AutoConnect>
+    <MinimizeOnConnect>true</MinimizeOnConnect>
+    <LocalLanAccess>true</LocalLanAccess>
+    <BackupServerList>
+        <HostEntry>
+            <HostName>backupvpn.example.com</HostName>
+            <HostAddress>123.456.789.1</HostAddress>
+        </HostEntry>
+    </BackupServerList>
+    <AutoReconnect>true</AutoReconnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <CertificateMatch>
+        <KeyUsage>
+            <MatchKey>Key_Encipherment</MatchKey>
+            <MatchKey>Key_Agreement</MatchKey>
+        </KeyUsage>
+        <ExtendedKeyUsage>
+            <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
+        </ExtendedKeyUsage>
+        <CertificateGroup>
+            <RootCA>
+                <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
+            </RootCA>
+        </CertificateGroup>
+    </CertificateMatch>
+</AnyConnectProfile>
