@@ -1,13 +1,13 @@
-<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/">
+<AnyConnectProfile>
     <ClientInitialization>
         <UseStartBeforeLogon UserControllable="true">true</UseStartBeforeLogon>
         <AutomaticVPNPolicy>connect</AutomaticVPNPolicy>
         <ServerCertificateThumbprint></ServerCertificateThumbprint>
         <ProxySettings>Native</ProxySettings>
-        <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+        <AllowLocalProxyConnections>false</AllowLocalProxyConnections>
         <EnableScripting UserControllable="false">true</EnableScripting>
         <EnableAutomaticServerSelection>true</EnableAutomaticServerSelection>
-        <LocalLanAccess UserControllable="false">false</LocalLanAccess>
+        <LocalLanAccess UserControllable="false">true</LocalLanAccess>
     </ClientInitialization>
     <ServerList>
         <HostEntry>
@@ -21,24 +21,14 @@
             </BackupServerList>
         </HostEntry>
     </ServerList>
-    <AutomaticCertificateSelection UserControllable="false">true</AutomaticCertificateSelection>
+    <AutomaticCertificateSelection UserControllable="false">false</AutomaticCertificateSelection>
     <Preferences>
         <ShowPreConnectMessage>false</ShowPreConnectMessage>
         <MinimizeOnConnect>true</MinimizeOnConnect>
     </Preferences>
-    <CertificateMatch>
-        <KeyUsage>
-            <MatchKey>Key_Encipherment</MatchKey>
-            <MatchKey>Key_Agreement</MatchKey>
-        </KeyUsage>
-        <ExtendedKeyUsage>
-            <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
-        </ExtendedKeyUsage>
-        <CertificateGroup>
-            <RootCA>
-                <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
-            </RootCA>
-        </CertificateGroup>
+    <RootCA>
+        <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
+    </RootCA>
     </CertificateMatch>
     <ConnectFailurePolicy>Reconnect</ConnectFailurePolicy>
     <ReconnectBehavior>ReconnectAfterResume</ReconnectBehavior>
