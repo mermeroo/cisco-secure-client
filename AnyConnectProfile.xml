@@ -9,6 +9,8 @@
         <HostEntry>
             <HostName>Primary VPN Server</HostName>
             <HostAddress>backupvpn.example.com</HostAddress>
+            </HostEntry>
+        </ServerList>
             <ClientInitialization>
         <AuthenticationTimeout>08</AuthenticationTimeout>
         <AutoConnectOnStart>false</AutoConnectOnStart>
