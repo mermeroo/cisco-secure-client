@@ -4,13 +4,7 @@
             <HostName>🇦🇹-AU</HostName>
             <HostAddress>aut.fvira59.com:13256</HostAddress>
         </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🚀</HostName>
-            <HostAddress>geo.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>        
+    </ServerList>     
     <ServerList>
         <HostEntry>
             <HostName>🇨🇦-CA</HostName>
@@ -21,12 +15,6 @@
         <HostEntry>
             <HostName>🇫🇷-FR</HostName>
             <HostAddress>fr.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇳🇱-NL</HostName>
-            <HostAddress>neo.vira59.com:13256</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
@@ -81,12 +69,6 @@
     <AutoConnect>true</AutoConnect>
     <MinimizeOnConnect>true</MinimizeOnConnect>
     <LocalLanAccess>true</LocalLanAccess>
-    <BackupServerList>
-        <HostEntry>
-            <HostName>🚀</HostName>
-            <HostAddress>geo.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </BackupServerList>
     <AutoReconnect>true</AutoReconnect>
     <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
     <ShowPreConnectMessage>false</ShowPreConnectMessage>
