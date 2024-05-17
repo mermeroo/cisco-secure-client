@@ -45,31 +45,4 @@
             <HostAddress>ctr.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
-    <CertificateStore>all</CertificateStore>
-    <CertificateStoreOverride>false</CertificateStoreOverride>
-    <DefaultUser>vip24433</DefaultUser>
-    <DefaultSecondUser>farahi</DefaultSecondUser>
-    <ClientCertificateThumbprint>true</ClientCertificateThumbprint>
-    <AutomaticCertSelection>false</AutomaticCertSelection>
-    <LocalLanAccess>true</LocalLanAccess>
-    <BackupServerList>
-        <HostEntry>
-            <HostName>backupvpn</HostName>
-            <HostAddress>123.456.789.1</HostAddress>
-        </HostEntry>
-    </BackupServerList>
-    <AutoReconnect>true</AutoReconnect>
-    <MinimizeOnConnect>true</MinimizeOnConnect>
-    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
-    <ShowPreConnectMessage>false</ShowPreConnectMessage>
-    <RetainVpnOnLogoff>true</RetainVpnOnLogoff>
-    <CertificateMatch>
-        <KeyUsage>
-            <MatchKey>Key_Encipherment</MatchKey>
-            <MatchKey>Key_Agreement</MatchKey>
-        </KeyUsage>
-        <ExtendedKeyUsage>
-            <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
-        </ExtendedKeyUsage>
-    </CertificateMatch>
 </AnyConnectProfile>
