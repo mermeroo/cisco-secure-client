@@ -1,84 +1,28 @@
+<AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>🇦🇹-AU</HostName>
-            <HostAddress>aut.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>     
-    <ServerList>
-        <HostEntry>
-            <HostName>🇨🇦-CA</HostName>
-            <HostAddress>ca.fvira59.com:13256.com</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇫🇷-FR</HostName>
-            <HostAddress>fr.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇵🇱-PO</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇹🇷-TR</HostName>
-            <HostAddress>tro.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇺🇸-US</HostName>
-            <HostAddress>us.fvira59.com:13256</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇩🇪-VIP-DE1</HostName>
-            <HostAddress>cde2.dnsfinde.com:1397</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇩🇪-VIP-DE2</HostName>
-            <HostAddress>cde3.dnsfinde.com:1397</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇮🇹-VIP-IT</HostName>
-            <HostAddress>cit.dnsfinde.com:1397</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>🇹🇷-VIP-TR</HostName>
-            <HostAddress>ctr.dnsfinde.com:1397</HostAddress>
+            <HostName>vip-vpn</HostName>
+            <HostAddress>hcit.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
     <CertificateStore>all</CertificateStore>
-    <CertificateStoreOverride>true</CertificateStoreOverride>
-    <DefaultUser>farahi</DefaultUser>
-    <DefaultSecondUser>vip24433</DefaultSecondUser>
-    <EnableScripting>true</EnableScripting>
-    <ClientCertificateThumbprint>true</ClientCertificateThumbprint>
+    <CertificateStoreOverride>false</CertificateStoreOverride>
+    <DefaultUser>vip24433</DefaultUser>
+    <DefaultSecondUser>farahi</DefaultSecondUser>
+    <ClientCertificateThumbprint></ClientCertificateThumbprint>
     <AutomaticCertSelection>false</AutomaticCertSelection>
-    <AutoConnect>true</AutoConnect>
-    <MinimizeOnConnect>true</MinimizeOnConnect>
     <LocalLanAccess>true</LocalLanAccess>
-    <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
-    <AuthenticationTimeout>7</AuthenticationTimeout>
-    <AutoConnectOnStart UserControllable="true">true</AutoConnectOnStart>
-    <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
-    <LocalLanAccess UserControllable="true">true</LocalLanAccess>
-    <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
-    <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
-    <AutoReconnect UserControllable="true">tru
-            <AutoReconnectBehavior UserControllable="true">DisconnectOnSuspend
-            </AutoReconnectBehavior>
-        </AutoReconnect>
+    <BackupServerList>
+        <HostEntry>
+            <HostName>backupvpn</HostName>
+            <HostAddress>123.456.789.1</HostAddress>
+        </HostEntry>
+    </BackupServerList>
+    <AutoReconnect>true</AutoReconnect>
+    <MinimizeOnConnect>true</MinimizeOnConnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <RetainVpnOnLogoff>true</RetainVpnOnLogoff>
     <CertificateMatch>
         <KeyUsage>
             <MatchKey>Key_Encipherment</MatchKey>
@@ -93,6 +37,4 @@
             </RootCA>
         </CertificateGroup>
     </CertificateMatch>
-        <RetainVpnOnLogoff>true
-        </RetainVpnOnLogoff>
 </AnyConnectProfile>
