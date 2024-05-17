@@ -1,68 +1,68 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.example1.com</HostName>
+            <HostName>🇦🇹-AU</HostName>
+            <HostAddress>aut.fvira59.com:13256</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>🇨🇦-CA</HostName>
+            <HostAddress>ca.fvira59.com:13256.com</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>🇫🇷-FR</HostName>
+            <HostAddress>fr.fvira59.com:13256</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>🇳🇱-NL</HostName>
+            <HostAddress>neo.vira59.com:13256</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>🇵🇱-PO.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example2.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇹🇷-TR</HostName>
+            <HostAddress>tro.fvira59.com:13256</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example3.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇺🇸-US</HostName>
+            <HostAddress>us.fvira59.com:13256</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example4.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇩🇪-VIP-DE1</HostName>
+            <HostAddress>cde2.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example5.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇩🇪-VIP-DE2</HostName>
+            <HostAddress>cde3.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example6.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇮🇹-VIP-IT</HostName>
+            <HostAddress>cit.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
         <ServerList>
         <HostEntry>
-            <HostName>vpn.example7.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>vpn.example8.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>vpn.example9.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>vpn.example10.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
-        </HostEntry>
-    </ServerList>
-        <ServerList>
-        <HostEntry>
-            <HostName>vpn.example11.com</HostName>
-            <HostAddress>123.456.789.0</HostAddress>
+            <HostName>🇹🇷-VIP-TR</HostName>
+            <HostAddress>ctr.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
     <CertificateStore>Machine</CertificateStore>
