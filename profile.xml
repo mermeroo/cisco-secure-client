@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AnyConnectProfile xmlns="https://github.com/mermeroo/cisco-secure-client/raw/main/profile.xml">
-<AnyConnectProfile>
     <ServerList>
         <HostEntry>
             <HostName>🇦🇹-AU</HostName>
@@ -71,9 +68,17 @@
     <AutoConnect>true</AutoConnect>
     <MinimizeOnConnect>true</MinimizeOnConnect>
     <LocalLanAccess>true</LocalLanAccess>
-    <AutoReconnect>true</AutoReconnect>
-    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
-    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+    <AuthenticationTimeout>12</AuthenticationTimeout>
+    <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+    <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
+    <LocalLanAccess UserControllable="true">true</LocalLanAccess>
+    <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
+    <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+    <AutoReconnect UserControllable="false">tru
+            <AutoReconnectBehavior UserControllable="false">DisconnectOnSuspend
+            </AutoReconnectBehavior>
+        </AutoReconnect>
     <CertificateMatch>
         <KeyUsage>
             <MatchKey>Key_Encipherment</MatchKey>
