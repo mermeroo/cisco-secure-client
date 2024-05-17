@@ -1,4 +1,4 @@
-<AnyConnectProfile xmlns="https://github.com/mermeroo/cisco-secure-client/raw/main/AnyConnectProfile.xml">
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/">
   <ClientInitialization>
     <UseStartBeforeLogon>false</UseStartBeforeLogon>
     <AutomaticCertSelection>false</AutomaticCertSelection>
@@ -28,11 +28,11 @@
   </ClientInitialization>
   <ServerList>
     <HostEntry>
-      <HostName>VPN Server</HostName>
-      <HostAddress>vip-vpn</HostAddress>
+      <HostName>VPN Server 1</HostName>
+      <HostAddress>vpn.example.com</HostAddress>
       <PrimaryProtocol>SSL</PrimaryProtocol>
       <BackupServerList>
-        <HostAddress>github.com/mermeroo/cisco-secure-client/raw/main/AnyConnectProfile.xml</HostAddress>
+        <HostAddress>backupvpn.example.com</HostAddress>
       </BackupServerList>
     </HostEntry>
   </ServerList>
