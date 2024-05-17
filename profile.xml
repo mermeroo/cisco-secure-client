@@ -93,4 +93,6 @@
             </RootCA>
         </CertificateGroup>
     </CertificateMatch>
+        <RetainVpnOnLogoff>true
+        </RetainVpnOnLogoff>
 </AnyConnectProfile>
