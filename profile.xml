@@ -77,8 +77,8 @@
     <LocalLanAccess>true</LocalLanAccess>
     <BackupServerList>
         <HostEntry>
-            <HostName>backupvpn.example.com</HostName>
-            <HostAddress>123.456.789.1</HostAddress>
+            <HostName>mermeroo.github.com</HostName>
+            <HostAddress>123.456.789.1234</HostAddress>
         </HostEntry>
     </BackupServerList>
     <AutoReconnect>true</AutoReconnect>
