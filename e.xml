@@ -1,19 +1,19 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.com</HostName>
+            <HostName>vpn1.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.com</HostName>
+            <HostName>vpn2.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.com</HostName>
+            <HostName>vpn3.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
