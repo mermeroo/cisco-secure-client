@@ -1,7 +1,67 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.example.com</HostName>
+            <HostName>vpn.example1.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example2.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example3.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example4.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example5.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example6.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example7.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example8.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example9.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example10.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+        <ServerList>
+        <HostEntry>
+            <HostName>vpn.example11.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
