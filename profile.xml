@@ -70,13 +70,13 @@
     <LocalLanAccess>true</LocalLanAccess>
     <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
     <AuthenticationTimeout>12</AuthenticationTimeout>
-    <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+    <AutoConnectOnStart UserControllable="true">true</AutoConnectOnStart>
     <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
     <LocalLanAccess UserControllable="true">true</LocalLanAccess>
     <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
     <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
-    <AutoReconnect UserControllable="false">tru
-            <AutoReconnectBehavior UserControllable="false">DisconnectOnSuspend
+    <AutoReconnect UserControllable="true">tru
+            <AutoReconnectBehavior UserControllable="true">DisconnectOnSuspend
             </AutoReconnectBehavior>
         </AutoReconnect>
     <CertificateMatch>
