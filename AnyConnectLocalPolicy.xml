@@ -1,11 +1,76 @@
-LOCAL_POLICY_BYPASS_DOWNLOADER
-
-LOCAL_POLICY_FIPS_MODE
-
-LOCAL_POLICY_RESTRICT_PREFERENCE_CACHING
-
-LOCAL_POLICY_RESTRICT_TUNNEL_PROTOCOLS
-
-LOCAL_POLICY_RESTRICT_WEB_LAUNCH
-
-LOCAL_POLICY_STRICT_CERTIFICATE_TRUST
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+    <ClientInitialization>
+        <UseStartBeforeLogon UserControllable="true">false</UseStartBeforeLogon>
+        <AutomaticCertSelection UserControllable="true">false</AutomaticCertSelection>
+        <ShowPreConnectMessage>false</ShowPreConnectMessage>
+        <CertificateStore>All</CertificateStore>
+        <CertificateStoreOverride>false</CertificateStoreOverride>
+        <ProxySettings>Native</ProxySettings>
+        <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+        <AuthenticationTimeout>12</AuthenticationTimeout>
+        <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+        <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
+        <LocalLanAccess UserControllable="true">true</LocalLanAccess>
+        <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
+        <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+        <AutoReconnect UserControllable="false">true
+            <AutoReconnectBehavior UserControllable="false">DisconnectOnSuspend
+            </AutoReconnectBehavior>
+        </AutoReconnect>
+        <AutoUpdate UserControllable="false">true</AutoUpdate>
+        <RSASecurIDIntegration UserControllable="false">Automatic
+        </RSASecurIDIntegration>
+        <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+        <WindowsVPNEstablishment>LocalUsersOnly</WindowsVPNEstablishment>
+        <AutomaticVPNPolicy>false</AutomaticVPNPolicy>
+        <PPPExclusion UserControllable="false">Disable
+            <PPPExclusionServerIP UserControllable="false"></PPPExclusionServerIP>
+        </PPPExclusion>
+        <EnableScripting UserControllable="false">false</EnableScripting>
+        <EnableAutomaticServerSelection UserControllable="false">false
+            <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+            <AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
+        </EnableAutomaticServerSelection>
+        <RetainVpnOnLogoff>false
+        </RetainVpnOnLogoff>
+    </ClientInitialization>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---AU</HostName>
+          <HostAddress>aut.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---DE</HostName>
+          <HostAddress>geo.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---FR</HostName>
+          <HostAddress>fr.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---PO</HostName>
+          <HostAddress>pno.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---TR</HostName>
+          <HostAddress>tro.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+<ServerList>
+     <HostEntry>
+          <HostName> 🔘---USA</HostName>
+          <HostAddress>us.fvira59.com:13256</HostAddress>
+     </HostEntry>
+</ServerList>
+</AnyConnectProfile>
