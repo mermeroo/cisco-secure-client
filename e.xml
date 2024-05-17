@@ -1,13 +1,13 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.example.com</HostName>
+            <HostName>vpn.com</HostName>
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
     <CertificateStore>Machine</CertificateStore>
     <CertificateStoreOverride>false</CertificateStoreOverride>
-    <DefaultUser>user@example.com</DefaultUser>
+    <DefaultUser>vip24433</DefaultUser>
     <ClientCertificateThumbprint>certificate_thumbprint</ClientCertificateThumbprint>
     <AutomaticCertSelection>false</AutomaticCertSelection>
     <AutoConnect>true</AutoConnect>
