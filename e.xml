@@ -5,6 +5,18 @@
             <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
+    <ServerList>
+        <HostEntry>
+            <HostName>vpn.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
+    <ServerList>
+        <HostEntry>
+            <HostName>vpn.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+    </ServerList>
     <CertificateStore>Machine</CertificateStore>
     <CertificateStoreOverride>false</CertificateStoreOverride>
     <DefaultUser>vip24433</DefaultUser>
