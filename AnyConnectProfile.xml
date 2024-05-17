@@ -8,7 +8,7 @@
     <BackupServerList>
         <HostEntry>
             <HostName>Primary VPN Server</HostName>
-            <HostAddress>backupvpn.example.com</HostAddress>
+            <HostAddress>backupvpn.setare.com</HostAddress>
             </HostEntry>
         </ServerList>
             <ClientInitialization>
