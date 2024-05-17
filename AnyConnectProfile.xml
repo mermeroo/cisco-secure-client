@@ -1,11 +1,15 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>Office VPN</HostName>
-            <HostAddress>vpn.RAHELEH</HostAddress>
+            <HostName>⭐️ RAHELEH</HostName>
+            <HostAddress>233.344.333</HostAddress>
         </HostEntry>
     </ServerList>
-    <ClientInitialization>
+    <BackupServerList>
+        <HostEntry>
+            <HostName>Primary VPN Server</HostName>
+            <HostAddress>backupvpn.example.com</HostAddress>
+            <ClientInitialization>
         <AuthenticationTimeout>08</AuthenticationTimeout>
         <AutoConnectOnStart>false</AutoConnectOnStart>
         <LocalLanAccess>true</LocalLanAccess>
