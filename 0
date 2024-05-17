@@ -1,5 +1,5 @@
 <AnyConnectProfile>
-    <ClientInitialization>
+<ClientInitialization>
         <UseStartBeforeLogon UserControllable="false">true</UseStartBeforeLogon>
         <AutomaticCertSelection UserControllable="false">true</AutomaticCertSelection>
         <ShowPreConnectMessage>false</ShowPreConnectMessage>
@@ -12,7 +12,14 @@
         <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
         <MinimizeOnConnect>true</MinimizeOnConnect>
         <LocalLanAccess>true</LocalLanAccess>
-        <BackupServerList>
+        <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+        <WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+        <DisableCaptivePortalDetection>true</DisableCaptivePortalDetection>
+        <EnableScripting>true</EnableScripting>
+        <EnableAutomaticServerSelection>true</EnableAutomaticServerSelection>
+        <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+       <ServerCertificateThumbprint>certificate_thumbprint</ServerCertificateThumbprint>
+<BackupServerList>
             <HostEntry>
                 <HostName>backupvpn1.example.com</HostName>
                 <HostAddress>123.456.789.2</HostAddress>
@@ -21,8 +28,8 @@
                 <HostName>backupvpn2.example.com</HostName>
                 <HostAddress>123.456.789.3</HostAddress>
             </HostEntry>
-        </BackupServerList>
-    </ClientInitialization>
+</BackupServerList>
+</ClientInitialization>
     <ServerList>
         <HostEntry>
             <HostName>vpn.example.com</HostName>
@@ -50,11 +57,5 @@
         <Enable>true</Enable>
         <SSOType>Local</SSOType>
     </SSO>
-    <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
-    <WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
-    <DisableCaptivePortalDetection>true</DisableCaptivePortalDetection>
-    <EnableScripting>true</EnableScripting>
-    <EnableAutomaticServerSelection>true</EnableAutomaticServerSelection>
-    <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
-    <ServerCertificateThumbprint>certificate_thumbprint</ServerCertificateThumbprint>
+    
 </AnyConnectProfile>
