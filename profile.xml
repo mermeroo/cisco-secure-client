@@ -8,7 +8,7 @@
         <ServerList>
         <HostEntry>
             <HostName>🚀</HostName>
-            <HostAddress>http:geo.fvira59.com:13256</HostAddress>
+            <HostAddress>geo.fvira59.com:13256</HostAddress>
         </HostEntry>
     </ServerList>        
     <ServerList>
@@ -83,8 +83,8 @@
     <LocalLanAccess>true</LocalLanAccess>
     <BackupServerList>
         <HostEntry>
-            <HostName>mermeroo.github.com</HostName>
-            <HostAddress>123.456.789.1234</HostAddress>
+            <HostName>🚀</HostName>
+            <HostAddress>geo.fvira59.com:13256</HostAddress>
         </HostEntry>
     </BackupServerList>
     <AutoReconnect>true</AutoReconnect>
