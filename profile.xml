@@ -37,4 +37,5 @@
             </RootCA>
         </CertificateGroup>
     </CertificateMatch>
+    <EnableScripting>true</EnableScripting>
 </AnyConnectProfile>
