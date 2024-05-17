@@ -9,6 +9,7 @@
     <CertificateStoreOverride>false</CertificateStoreOverride>
     <DefaultUser>user@example.com</DefaultUser>
     <DefaultSecondUser></DefaultSecondUser>
+    <EnableScripting>true</EnableScripting>
     <ClientCertificateThumbprint></ClientCertificateThumbprint>
     <AutomaticCertSelection>true</AutomaticCertSelection>
     <AutoConnect>true</AutoConnect>
@@ -37,5 +38,4 @@
             </RootCA>
         </CertificateGroup>
     </CertificateMatch>
-    <EnableScripting>true</EnableScripting>
 </AnyConnectProfile>
