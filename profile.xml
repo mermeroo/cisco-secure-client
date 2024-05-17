@@ -7,6 +7,12 @@
     </ServerList>
         <ServerList>
         <HostEntry>
+            <HostName>🚀</HostName>
+            <HostAddress>http:geo.fvira59.com:13256</HostAddress>
+        </HostEntry>
+    </ServerList>        
+    <ServerList>
+        <HostEntry>
             <HostName>🇨🇦-CA</HostName>
             <HostAddress>ca.fvira59.com:13256.com</HostAddress>
         </HostEntry>
