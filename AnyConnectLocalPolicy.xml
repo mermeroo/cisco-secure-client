@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<AnyConnectProfile>
+    <ServerList>
+        <HostEntry>
+            <HostName>Office VPN</HostName>
+            <HostAddress>vpn.RAHELEH</HostAddress>
+        </HostEntry>
+    </ServerList>
     <ClientInitialization>
+        <AuthenticationTimeout>08</AuthenticationTimeout>
+        <AutoConnectOnStart>false</AutoConnectOnStart>
+        <LocalLanAccess>true</LocalLanAccess>
         <ShowPreConnectMessage>false</ShowPreConnectMessage>
-        <CertificateStore>All</CertificateStore>
-        <CertificateStoreOverride>false</CertificateStoreOverride>
-        <ProxySettings>Native</ProxySettings>
-        <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
-        <AuthenticationTimeout>8</AuthenticationTimeout>
-        <RetainVpnOnLogoff>true
-        </RetainVpnOnLogoff>
+        <AutoReconnect>true</AutoReconnect>
     </ClientInitialization>
-<ServerList>
+    <ServerList>
      <HostEntry>
           <HostName>🇦🇹---AU</HostName>
           <HostAddress>aut.fvira59.com:13256</HostAddress>
