@@ -1,0 +1,39 @@
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/">
+  <ClientInitialization>
+    <UseStartBeforeLogon>false</UseStartBeforeLogon>
+    <AutomaticCertSelection>false</AutomaticCertSelection>
+    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <CertificateStore>All</CertificateStore>
+    <CertificateStoreMac>All</CertificateStoreMac>
+    <ProxySettings>Native</ProxySettings>
+    <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+    <AuthenticationTimeout>12</AuthenticationTimeout>
+    <AutoConnectOnStart>false</AutoConnectOnStart>
+    <MinimizeOnConnect>true</MinimizeOnConnect>
+    <LocalLanAccess>false</LocalLanAccess>
+    <ClearSmartcardPin>true</ClearSmartcardPin>
+    <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+    <AutoReconnect>true</AutoReconnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <AutoUpdate>true</AutoUpdate>
+    <RSASecurIDIntegration>Automatic</RSASecurIDIntegration>
+    <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+    <WindowsVPNEstablishment>LocalUsersOnly</WindowsVPNEstablishment>
+    <AutomaticVPNPolicy>false</AutomaticVPNPolicy>
+    <PPPExclusion>Automatic</PPPExclusion>
+    <EnableScripting>false</EnableScripting>
+    <EnableAutomaticServerSelection>false</EnableAutomaticServerSelection>
+    <RetainVpnOnLogoff>false</RetainVpnOnLogoff>
+    <ClientCertificateThumbprint />
+  </ClientInitialization>
+  <ServerList>
+    <HostEntry>
+      <HostName>VPN Server 1</HostName>
+      <HostAddress>vpn.example.com</HostAddress>
+      <PrimaryProtocol>SSL</PrimaryProtocol>
+      <BackupServerList>
+        <HostAddress>backupvpn.example.com</HostAddress>
+      </BackupServerList>
+    </HostEntry>
+  </ServerList>
+</AnyConnectProfile>
