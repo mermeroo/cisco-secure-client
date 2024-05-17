@@ -1,35 +1,40 @@
 <AnyConnectProfile>
-    <ClientInitialization>
-        <UseStartBeforeLogon UserControllable="true">true</UseStartBeforeLogon>
-        <AutomaticVPNPolicy>connect</AutomaticVPNPolicy>
-        <ServerCertificateThumbprint></ServerCertificateThumbprint>
-        <ProxySettings>Native</ProxySettings>
-        <AllowLocalProxyConnections>false</AllowLocalProxyConnections>
-        <EnableScripting UserControllable="false">true</EnableScripting>
-        <EnableAutomaticServerSelection>true</EnableAutomaticServerSelection>
-        <LocalLanAccess UserControllable="false">true</LocalLanAccess>
-    </ClientInitialization>
     <ServerList>
         <HostEntry>
-            <HostName>Primary VPN Server</HostName>
-            <HostAddress>vpn.example.com</HostAddress>
-            <BackupServerList>
-                <HostEntry>
-                    <HostName>Backup VPN Server</HostName>
-                    <HostAddress>backupvpn.example.com</HostAddress>
-                </HostEntry>
-            </BackupServerList>
+            <HostName>vpn.example.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
-    <AutomaticCertificateSelection UserControllable="false">false</AutomaticCertificateSelection>
-    <Preferences>
-        <ShowPreConnectMessage>false</ShowPreConnectMessage>
-        <MinimizeOnConnect>true</MinimizeOnConnect>
-    </Preferences>
-    <RootCA>
-        <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
-    </RootCA>
+    <CertificateStore>Machine</CertificateStore>
+    <CertificateStoreOverride>false</CertificateStoreOverride>
+    <DefaultUser>user@example.com</DefaultUser>
+    <DefaultSecondUser></DefaultSecondUser>
+    <ClientCertificateThumbprint></ClientCertificateThumbprint>
+    <AutomaticCertSelection>true</AutomaticCertSelection>
+    <AutoConnect>true</AutoConnect>
+    <MinimizeOnConnect>true</MinimizeOnConnect>
+    <LocalLanAccess>true</LocalLanAccess>
+    <BackupServerList>
+        <HostEntry>
+            <HostName>backupvpn.example.com</HostName>
+            <HostAddress>123.456.789.1</HostAddress>
+        </HostEntry>
+    </BackupServerList>
+    <AutoReconnect>true</AutoReconnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <CertificateMatch>
+        <KeyUsage>
+            <MatchKey>Key_Encipherment</MatchKey>
+            <MatchKey>Key_Agreement</MatchKey>
+        </KeyUsage>
+        <ExtendedKeyUsage>
+            <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
+        </ExtendedKeyUsage>
+        <CertificateGroup>
+            <RootCA>
+                <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
+            </RootCA>
+        </CertificateGroup>
     </CertificateMatch>
-    <ConnectFailurePolicy>Reconnect</ConnectFailurePolicy>
-    <ReconnectBehavior>ReconnectAfterResume</ReconnectBehavior>
 </AnyConnectProfile>
