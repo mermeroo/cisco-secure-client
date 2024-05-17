@@ -1,0 +1,60 @@
+<AnyConnectProfile>
+    <ClientInitialization>
+        <UseStartBeforeLogon UserControllable="false">true</UseStartBeforeLogon>
+        <AutomaticCertSelection UserControllable="false">true</AutomaticCertSelection>
+        <ShowPreConnectMessage>false</ShowPreConnectMessage>
+        <CertificateStore>All</CertificateStore>
+        <CertificateStoreOverride>true</CertificateStoreOverride>
+        <ProxySettings>IgnoreProxy</ProxySettings>
+        <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+        <AutoConnectOnStart>true</AutoConnectOnStart>
+        <AutoReconnect>true</AutoReconnect>
+        <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+        <MinimizeOnConnect>true</MinimizeOnConnect>
+        <LocalLanAccess>true</LocalLanAccess>
+        <BackupServerList>
+            <HostEntry>
+                <HostName>backupvpn1.example.com</HostName>
+                <HostAddress>123.456.789.2</HostAddress>
+            </HostEntry>
+            <HostEntry>
+                <HostName>backupvpn2.example.com</HostName>
+                <HostAddress>123.456.789.3</HostAddress>
+            </HostEntry>
+        </BackupServerList>
+    </ClientInitialization>
+    <ServerList>
+        <HostEntry>
+            <HostName>vpn.example.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
+        </HostEntry>
+        <HostEntry>
+            <HostName>vpn2.example.com</HostName>
+            <HostAddress>123.456.789.1</HostAddress>
+        </HostEntry>
+    </ServerList>
+    <ClientCertificate>
+        <CA>
+            <Name>Example CA</Name>
+            <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
+        </CA>
+        <KeyUsage>
+            <MatchKey>Key_Encipherment</MatchKey>
+            <MatchKey>Key_Agreement</MatchKey>
+        </KeyUsage>
+        <ExtendedKeyUsage>
+            <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
+        </ExtendedKeyUsage>
+    </ClientCertificate>
+    <SSO>
+        <Enable>true</Enable>
+        <SSOType>Local</SSOType>
+    </SSO>
+    <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+    <WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+    <DisableCaptivePortalDetection>true</DisableCaptivePortalDetection>
+    <EnableScripting>true</EnableScripting>
+    <EnableAutomaticServerSelection>true</EnableAutomaticServerSelection>
+    <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+    <ServerCertificateThumbprint>certificate_thumbprint</ServerCertificateThumbprint>
+</AnyConnectProfile>
