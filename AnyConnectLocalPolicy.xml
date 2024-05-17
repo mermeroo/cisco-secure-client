@@ -3,15 +3,15 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
  xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
     <ClientInitialization>
-        <UseStartBeforeLogon UserControllable="true">false</UseStartBeforeLogon>
+        <UseStartBeforeLogon UserControllable="true">true</UseStartBeforeLogon>
         <AutomaticCertSelection UserControllable="true">false</AutomaticCertSelection>
         <ShowPreConnectMessage>false</ShowPreConnectMessage>
         <CertificateStore>All</CertificateStore>
         <CertificateStoreOverride>false</CertificateStoreOverride>
         <ProxySettings>Native</ProxySettings>
         <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
-        <AuthenticationTimeout>12</AuthenticationTimeout>
-        <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+        <AuthenticationTimeout>i</AuthenticationTimeout>
+        <AutoConnectOnStart UserControllable="true">true</AutoConnectOnStart>
         <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
         <LocalLanAccess UserControllable="true">true</LocalLanAccess>
         <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
@@ -21,20 +21,8 @@
             </AutoReconnectBehavior>
         </AutoReconnect>
         <AutoUpdate UserControllable="false">true</AutoUpdate>
-        <RSASecurIDIntegration UserControllable="false">Automatic
-        </RSASecurIDIntegration>
-        <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
-        <WindowsVPNEstablishment>LocalUsersOnly</WindowsVPNEstablishment>
-        <AutomaticVPNPolicy>false</AutomaticVPNPolicy>
-        <PPPExclusion UserControllable="false">Disable
-            <PPPExclusionServerIP UserControllable="false"></PPPExclusionServerIP>
-        </PPPExclusion>
         <EnableScripting UserControllable="false">false</EnableScripting>
-        <EnableAutomaticServerSelection UserControllable="false">false
-            <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
-            <AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
-        </EnableAutomaticServerSelection>
-        <RetainVpnOnLogoff>false
+        <RetainVpnOnLogoff>true
         </RetainVpnOnLogoff>
     </ClientInitialization>
 <ServerList>
