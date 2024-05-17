@@ -58,18 +58,18 @@
             <HostAddress>ctr.dnsfinde.com:1397</HostAddress>
         </HostEntry>
     </ServerList>
-    <CertificateStore>Machine</CertificateStore>
-    <CertificateStoreOverride>false</CertificateStoreOverride>
-    <DefaultUser>user@example.com</DefaultUser>
-    <DefaultSecondUser></DefaultSecondUser>
+    <CertificateStore>all</CertificateStore>
+    <CertificateStoreOverride>true</CertificateStoreOverride>
+    <DefaultUser>farahi</DefaultUser>
+    <DefaultSecondUser>vip24433</DefaultSecondUser>
     <EnableScripting>true</EnableScripting>
-    <ClientCertificateThumbprint></ClientCertificateThumbprint>
-    <AutomaticCertSelection>true</AutomaticCertSelection>
+    <ClientCertificateThumbprint>true</ClientCertificateThumbprint>
+    <AutomaticCertSelection>false</AutomaticCertSelection>
     <AutoConnect>true</AutoConnect>
     <MinimizeOnConnect>true</MinimizeOnConnect>
     <LocalLanAccess>true</LocalLanAccess>
     <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
-    <AuthenticationTimeout>12</AuthenticationTimeout>
+    <AuthenticationTimeout>7</AuthenticationTimeout>
     <AutoConnectOnStart UserControllable="true">true</AutoConnectOnStart>
     <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
     <LocalLanAccess UserControllable="true">true</LocalLanAccess>
