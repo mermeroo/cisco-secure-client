@@ -71,10 +71,5 @@
         <ExtendedKeyUsage>
             <ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
         </ExtendedKeyUsage>
-        <CertificateGroup>
-            <RootCA>
-                <Certificate>MIIDazCCAlOgAwIBAgI... (certificate content) ...AgX</Certificate>
-            </RootCA>
-        </CertificateGroup>
     </CertificateMatch>
 </AnyConnectProfile>
