@@ -6,13 +6,13 @@
   <ServerList>
     <HostEntry>
       <HostName>VPN  SERVER</HostName>
-      <HostAddress>http://aut.fvira59.com:13256</HostAddress>
+      <HostAddress>cit.dnsfinde.com:1397</HostAddress>
     </HostEntry>
   </ServerList>
   <BackupServerList>
     <HostEntry>
       <HostName>Primary  VPN  SERVER</HostName>
-      <HostAddress>http://pno.fvira59.com:13256</HostAddress>
+      <HostAddress>cde3.dnsfinde.com:1397</HostAddress>
     </HostEntry>
   </BackupServerList>
 </AnyConnectProfile>
