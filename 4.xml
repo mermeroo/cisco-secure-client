@@ -1,0 +1,53 @@
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/">
+  <ClientInitialization>
+    <AutoReconnect>true</AutoReconnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <AutomaticVPNPolicy>connect</AutomaticVPNPolicy></ClientInitialization>
+  <ServerList>
+    <HostEntry>
+      <HostName>    🩸  T</HostName>
+      <HostAddress>dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+      <HostName> 🇮🇹 vip</HostName>
+      <HostAddress>cit.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName> 🇩🇪 vip 1</HostName>
+      <HostAddress>cde.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName> 🇩🇪 vip 2</HostName>
+      <HostAddress>cde2.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName> 🇩🇪 vip 3</HostName>
+      <HostAddress>cde2.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName> 🇹🇷 vip</HostName>
+      <HostAddress>ctr.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName>🇺🇸</HostName>
+      <HostAddress>us.fvira59.com:13256</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName>🇫🇷</HostName>
+      <HostAddress>fr.fvira59.com:13256</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName>🇵🇱</HostName>
+      <HostAddress>pno.fvira59.com:13256</HostAddress>
+    </HostEntry>
+    <HostEntry>
+      <HostName>🇦🇹</HostName>
+      <HostAddress>aut.fvira59.com:13256</HostAddress>
+    </HostEntry>
+  </ServerList>
+   <BackupServerList>
+     <HostEntry>
+       <HostName>Backup VPN Server</HostName>
+       <HostAddress>backupvpn.example.com</HostAddress>
+     </HostEntry>
+   </BackupServerList>
+</AnyConnectProfile>
