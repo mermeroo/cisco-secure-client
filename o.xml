@@ -1,0 +1,18 @@
+<AnyConnectProfile>
+  <ClientInitialization>
+    <AutoReconnect>true</AutoReconnect>
+    <AutoReconnectBehavior>ReconnectAfterResume</AutoReconnectBehavior>
+    <AutomaticVPNPolicy>connect</AutomaticVPNPolicy></ClientInitialization>
+  <ServerList>
+    <HostEntry>
+      <HostName>VPN  SERVER</HostName>
+      <HostAddress>cit.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+  </ServerList>
+  <BackupServerList>
+    <HostEntry>
+      <HostName>Primary  VPN  SERVER</HostName>
+      <HostAddress>cde3.dnsfinde.com:1397</HostAddress>
+    </HostEntry>
+  </BackupServerList>
+</AnyConnectProfile>
