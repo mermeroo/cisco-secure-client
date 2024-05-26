@@ -40,37 +40,37 @@
 <ServerList>
      <HostEntry>
           <HostName> 🔘---AU</HostName>
-          <HostAddress>aut.fvira59.com:13256</HostAddress>
+          <HostAddress>aut..com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 <ServerList>
      <HostEntry>
           <HostName> 🔘---DE</HostName>
-          <HostAddress>geo.fvira59.com:13256</HostAddress>
+          <HostAddress>geo..com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 <ServerList>
      <HostEntry>
           <HostName> 🔘---FR</HostName>
-          <HostAddress>fr.fvira59.com:13256</HostAddress>
+          <HostAddress>fr..com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 <ServerList>
      <HostEntry>
           <HostName> 🔘---PO</HostName>
-          <HostAddress>pno.fvira59.com:13256</HostAddress>
+          <HostAddress>..com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 <ServerList>
      <HostEntry>
           <HostName> 🔘---TR</HostName>
-          <HostAddress>tro.fvira59.com:13256</HostAddress>
+          <HostAddress>..com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 <ServerList>
      <HostEntry>
           <HostName> 🔘---USA</HostName>
-          <HostAddress>us.fvira59.com:13256</HostAddress>
+          <HostAddress>us.com:13256</HostAddress>
      </HostEntry>
 </ServerList>
 </AnyConnectProfile>
